@@ -1,0 +1,1 @@
+("~/.emacs.d/" "~/.rc/" "~/.zprezto/" "~/src/themis/")
