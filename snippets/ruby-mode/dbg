@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: dbg
+# key: dbg
+# binding: C-x +
+# --
+puts "\n\nDBG: in #{self.class.name}:#{__method__}: ${message}"
