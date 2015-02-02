@@ -73,15 +73,15 @@
 
 ;; Set the font
 (add-to-list 'default-frame-alist
-             '(font . "Terminus-13"))
+             '(font . "Terminus-12"))
 
-(set-default-font "Terminus-13")
+(set-default-font "Terminus-11")
 
 ;; Turn off tab indentation and use 2 spaces for width
 (setq-default indent-tabs-mode nil)
 (setq tab-width 2)
 
-(load-theme 'granger t)
+(load-theme 'fogus t)
 
 ;; Show the file name and path in the frame's title
 (setq frame-title-format
