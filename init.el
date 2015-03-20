@@ -14,13 +14,11 @@
 (packages-install
  '(ag
    color-theme-sanityinc-solarized
-   enh-ruby-mode
    rspec-mode
    inf-ruby
    flx-ido
    ido-vertical-mode
    magit
-   projectile
    projectile-rails
    chruby
    yasnippet
@@ -49,6 +47,9 @@
 ;; Initialize web mode
 (require 'init-web-mode)
 
+;; Initialize shell script mode
+(require 'init-shell)
+
 ;; Start an emacs server
 (require 'server)
 (unless (server-running-p)
@@ -59,11 +60,6 @@
 (when (fboundp 'windmove-default-keybindings)
   (windmove-default-keybindings))
 
-;; set projectile global mode
-(projectile-global-mode)
-
-;; set projectile for certain modes
-(add-hook 'ruby-mode-hook 'projectile-on)
 (add-hook 'projectile-mode-hook 'projectile-rails-on)
 
 (eval-after-load 'rspec-mode
