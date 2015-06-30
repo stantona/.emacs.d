@@ -1,0 +1,68 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/adam/src/themis/app/" . "controllers/")
+ ("/home/adam/src/mit-scip/" . "2.2.4/")
+ ("/home/adam/src/lcthw/" . "ex15/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ #("/home/adam/.emacs.d/" 11 19 (face flx-highlight-face))
+ "/home/adam/src/themis/app/controllers/"
+ "/home/adam/.emacs.d/lisp/"
+ "/home/adam/src/themis/"
+ "/home/adam/"
+ "/home/adam/src/themis/lib/util/"
+ "/home/adam/src/themis/script/"
+ "/home/adam/src/lcthw/ex15/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "init.el"
+ "accounts_controller.rb"
+ "init-ruby.el"
+ "Gemfile.lock"
+ ".jira.cnf"
+ "jira.rb"
+ "releaser.rb"
+ ".cliorc"
+ "Gemfile"
+ "init-scheme.el"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ (#("/home/adam/.emacs.d/" 11 19 (face flx-highlight-face)) (21906 4251 481300 941000) "init.el" "elpa/" "projectile-bookmarks.eld" "../" ".git/" "./" "var/" "lisp/" "snippets/" "auto-save-list/" ".gitignore" "ido.last" "init.el~" "tramp" "ido.last~")
+
+ ("/home/adam/src/themis/app/controllers/" (21905 61406 921486 52000) "browsers_controller.rb" "bank_transaction_exports_controller.rb" "practice_areas_controller.rb" "signups_controller.rb" "tools/" "imports_controller.rb" "firm_feeds_controller.rb" "client_connect_permissions_controller.rb" "trial_questions_controller.rb" "oauth2_controller.rb" "expense_entries_controller.rb" "fast_forwards_controller.rb" "recommends_controller.rb" "sessions_controller.rb" "export_activity_posts_controller.rb" "polls_controller.rb" "sales_force/" "bill_printings_controller.rb" "exports_controller.rb" "home_controller.rb" "invitations_controller.rb" "message_communications_controller.rb" "base_notification_subscriptions_controller.rb" "document_categories_controller.rb" "user_notifications_reads_controller.rb" "email_aliases_controller.rb" "users_controller.rb" "calendar_entry_memberships_controller.rb" "export_dts_controller.rb" "task_template_lists_controller.rb" "matter_dockets_controller.rb" "client_connect_administration_controller.rb" "activity_descriptions_controller.rb" "worktrakr/" "exceptions_controller.rb" "users/" "bank_transactions_controller.rb" "document_version_notes_controller.rb" "postfix/" "bill_payments_controller.rb" "quick_bill_controller.rb" "passwords_controller.rb" "bill_exports_controller.rb" "permissions_controller.rb" "modal_time_entries_controller.rb" "bank_accounts_controller.rb" "bulk_operations_controller.rb" "calendar_settings_controller.rb" "matter_docket_to_calendar_entries_controller.rb" "calendar_sharing_controller.rb" "export/" "companies_controller.rb" "task_templates_controller.rb" "multi_select/" "calendar_dhtmlx_entries_controller.rb" "al_goals_controller.rb" "export_reports_controller.rb" "import_matter_permission_csvs_controller.rb" "document_template_examples_controller.rb" "import_user_csvs_controller.rb" "paypal_ipns_controller.rb" "matter_transfers_controller.rb" "contact_notes_controller.rb" "statement_of_accounts_controller.rb" "calendars_controller.rb" "requested_accesses_controller.rb" "forgotten_passwords_controller.rb" "credit_notes_controller.rb" "sessions_two_factor_controller.rb" "custom_field_filters_controller.rb" "oauth_clients_controller.rb" "security_info_controller.rb" "payment_profiles_controller.rb" "document_versions_controller.rb" "online_payment_accounts_controller.rb" "communications_controller.rb" "delayed_notifications_controller.rb" "scanner_controller.rb" "credit_cards_controller.rb" "base_message_communications_controller.rb" "liability_transactions_controller.rb" "netdocuments_links_controller.rb" "dev/" "layouts_controller.rb" "calendar_entries_controller.rb" "google_calendars_controller.rb" "tasks_controller.rb" "webinars_controller.rb" "health_check_controller.rb" "court_rules_controller.rb" "bills_controller.rb" "tours_controller.rb" "practices_controller.rb" "openids_controller.rb" "settings/" "marketo_webhook_controller.rb" "bank_transfers_controller.rb" "calendar_memberships_controller.rb" "document_version_previews_controller.rb" "printable_calendars_controller.rb" "external_documents_controller.rb" "accounts_controller.rb" "online_payments_controller.rb" "billable_activities_controller.rb" "oauth_controller.rb" "admin/" "feature_controller.rb" "mobile_app_detection_controller.rb" "search_controller.rb" "matter_notes_controller.rb" "companion_link/" "time_entries_controller.rb" "document_templates_controller.rb" "api/" "client_connect/" "feedback_controller.rb" "clio_sync_requests_controller.rb" "reports/" "qa_tasks/" "people_controller.rb" "application_controller.rb" "navigation_controller.rb" "employees_controller.rb" "google_contact_syncs_controller.rb" "relationships_controller.rb" "backups_controller.rb" "zendesk_auth_controller.rb" "dropbox_settings_controller.rb" "matters_controller.rb" "backup_states_controller.rb" "logos_controller.rb" "login_controller.rb" "notes_controller.rb" "oauth_consumers_controller.rb" "announcements_controller.rb" "trial_demo_bookings_controller.rb" "export_matter_ddps_controller.rb" "bulk_bills_controller.rb" "base_documents_controller.rb" "calendar_visibilities_controller.rb" "contacts_controller.rb" "documents_controller.rb" "bill_themes_controller.rb" "log_entry_controller.rb" "performance_controller.rb" "dropbox_email_addresses_controller.rb" "activities_controller.rb" "geckoboards_controller.rb" "import_failures_controller.rb" "timer_controller.rb" "task_template_list_instances_controller.rb" "purchases_controller.rb" "../" "./")
+
+ ("/home/adam/src/themis/app/" (21905 30742 368721 883000) "models/" "presenters/" "assets/" "controllers/" "../" "datatables/" "middleware/" "next/" "javascripts/" "./" "serializers/" "decorators/" "observers/" "jobs/" "services/" "views/" "mailers/" "helpers/")
+
+ ("/home/adam/src/themis/" (21905 57129 672588 102000) "Rakefile" "log/" "../" "db/" ".git/" "Gemfile" "README.markdown" "public/" ".capistrano/" "config.ru" "config/" "./" "script/" ".rspec" "lib/" "tmp/" "Procfile" "node_modules/" "app/" ".ackrc" "doc/" "spec/" "package.json" "SERVICES" "consultants.html" "perf-benchmark/" ".gitignore" "test/" "bin/" "Vagrantfile" "Capfile" "Gemfile.lock" "vagrant.yml.example" "vendor/")
+
+ ("/home/adam/" (21905 53898 503561 911000) ".bashrc~" "Public/" ".mysql_history" ".emacs.d/" ".compiz/" "src/" ".gnupg/" ".pki/" ".bash_aliases" ".xsession-errors.old" ".rediscli_history" "../" ".pry_history" ".gconf/" ".cliorc~" ".bash_history" "Music/" ".cache/" ".dmrc" ".gem/" ".gnome/" ".xsession-errors" ".local/" "Pictures/" ".jira.cnf~" ".Xauthority" ".dbus/" ".lesshst" "./" ".rc/" "tmp/" ".jira.cnf" ".ruby-version" ".tmux.conf" ".ICEauthority" "Desktop/" ".rubies/" ".gitignore" ".adobe/" "Downloads/" ".bash_logout" ".npm/" "examples.desktop" ".bashrc" ".macromedia/" "Documents/" ".ssh/" "Templates/" ".gitconfig" ".cliorc" ".config/" ".profile" "Videos/" ".sudo_as_admin_successful" ".mozilla/")
+
+ ("/home/adam/src/themis/lib/util/" (21905 30742 540721 808000) "../" "./" "process_handle.rb" "jira.rb")
+
+ ("/home/adam/src/themis/lib/" (21905 30742 544721 806000) "clio/" "exporters/" "memoize.rb" "clio_user_role.rb" "contact_permission_validator.rb" "costa_rica_hack/" "image_resolution.rb" "marshaled_memory_store.rb" "lockable_actions.rb" "notify_client_connect_permission.rb" "css_asset_tagger.rb" "flexlib-2.4.swc" "dt/" "tasks/" "reminder_duration.rb" "hash_from_libxml_patch.rb" "internal_groups.rb" "forwarded_mail_parser.rb" "dt.rb" "util/" "constant_time_comparison.rb" "has_bitfield.rb" "carrier_wave/" "session_user_setter.rb" "sql_batch.rb" "../" "geo.rb" "message_communication_service.rb" "simple_cache.rb" "timeline_fu/" "document_upload_service.rb" "form_model.rb" "local_file.rb" "delayed_job_patch.rb" "csv_patch.rb" "fetcher_patch.rb" "css_asset_tagger_options.rb" "rewrite_asset_path.rb" "fetcher/" "shared_storage.rb" "xero.rb" "applicationupdater_ui.swc" "sync.rb" "webinar_parser.rb" "quova.rb" "time_zone_parse_with_chronic.rb" "datatable_presenters/" "active_record_lockable.rb" "asset_compiler.rb" "web_hooks/" "mail_parser.rb" "memory_tracer.rake" "userstamp/" "ajax_scaffold.rb" "clio_chronic_duration.rb" "./" "net_documents/" "import_amicus_helper.rb" "factory_girl_adapter.rb" "data_set/" "firm_feed_mixin.rb" "document_upload.rb" "mailer_file_attachments.rb" "retryable.rb" "dropbox_mail_fetcher.rb" "url_format_validator.rb" "attachment_stub.rb" "file_extras.rb" "numeric.rb" "mail_fixture.rb" "authenticated_test_helper.rb" "security_patches/" "array.rb" "guid.rb" "dropbox_media_patch.rb" "net_http_open_timeout.rb" "class.rb" "sync_analytics.rb" "statsd_client.rb" "amazon_s3_shared_storage.rb" "dropbox_email_parser.rb" "clio_externals.rb" "email_format_validator.rb" "io/" "address_parser.rb" "ngannotate.js" "document_attachment_controller_methods.rb" "time_entry_scopes.rb" "restful-authentication/" "exception_extras.rb" "controller_permissions.rb" "model_permissions.rb" "active_record_dt.rb" "immutable_validator.rb" "handlers/" "log_formatter.rb" "quickbooks/" "sync/" "query_tracer.rb" "countries_patch.rb" "master_crypto_provider.rb" "email_validator.rb" "bill_theme_xss_protection.rb" "themis.p12" "client_connect_scope.rb" "sql_backup_restore.rb" "yield_in_timezone.rb" "communications_controller_mixin.rb" "calendar_entry_adapter.rb" "remote_file.rb" "ri_cal_property_value_date_time_patch.rb" "statsd.rb" "instance_tag.rb" "web_hook_mixin.rb" "big_decimal.rb" "applicationupdater.swc" "cascading_dates.rb" "cached_delayed_url_request.rb" "session_manager.rb" "client_connect_user_role.rb" "ringcentral_log_parser.rb" "openssl_patch.rb" "reminder_params_mixin.rb" "bcrypt_cost_factor.rb" "searchable.rb" "api_helper.rb" "mailer_with_assets.rb" "rate_limit.rb" "yuicompressor-2.4.2.jar" "logging/" "drop_box.rb" "redirect_route_constraint.rb" "google_analytics.rb" "recurrence.rb" "asset_cache_primer.rb" "nbuilder.rb" "backup_restore.rb" "active_record_without_timestamps.rb" "PDF.jar" "closure-compiler.jar" "active_record_csv.rb" "string.rb" "box_net/" "authenticated_system.rb" "resque/" "xero/" "any_production.rb" "hash.rb" "security_patches.rb")
+
+ ("/home/adam/src/themis/script/" (21905 30742 684721 746000) "expire_cloudfront.sh" "../" "jira_votes.rb" "releaser.rb" "test.d/" "undelete_bills" "bootstrap/" "./" "exercise_migration.sh" "rails" "aws_benchmark.rb" "delayed_job" "resque")
+
+ ("/home/adam/src/" (21905 37896 583197 432000) "../" "chruby-0.3.9/" "lcthw/" "./" "ruby-2.1.4/" "themis/" "chruby-0.3.9.tar.gz" "ruby-2.1.4.tar.bz2" "mit-scip/")
+
+ ("/home/adam/src/mit-scip/2.2.4/" (21904 45776 622940 405000) "../" "./" "ex244.scm" "ex247.scm" "ex246.scm~" "ex247.scm~" "ex246.scm" "ex245.scm")
+
+ ("/home/adam/.emacs.d/lisp/" (21904 40986 629415 113000) "init-scheme.el" "init-yaml.el" "../" "init-packages.el" "init-magit.el" "./" "init-ido.el" "init-ruby.el" "init-web-mode.el" "init-shell.el" "init.el~" "init-scheme.el~" "init-yasnippets.el")
+
+ ("/home/adam/src/lcthw/ex15/" (21904 35850 689490 947000) ".#pointers.c" "pointers.c~" "../" "pointers.org~" "pointers.org" "./" "pointers" "alloc/" "#pointers.c#" "pointers.c")
+
+ ("/home/adam/src/mit-scip/" (21904 23839 326172 648000) "1.2.6/" "1.3.4/" "../" "2.1.3/" ".git/" "1.2.2/" "1.3.3/" "./" "test-helpers.scm" "2.2.4/" "helpers.scm" "1.2.5/" "2.2.1/" "2.1.1/" "2.1.2/" "gcd.scm" "2.2.3/" "1.3.1/" "2.1.4/")
+
+ ("/home/adam/src/lcthw/" (21904 23883 861805 378000) "../" ".git/" "./" "dbg.h" "ex15/" "dbg.h~")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
