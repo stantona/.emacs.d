@@ -1,0 +1,9 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: qt
+# key: qt
+# group: debugging
+# expand-env: (yas-wrap-around-region 't)
+# --
+QueryTracer.trace do
+  `yas/selected-text`
+end

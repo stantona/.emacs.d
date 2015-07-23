@@ -10,5 +10,6 @@
 
 (require 'ido-vertical-mode)
 (ido-vertical-mode)
+(setq ido-vertical-define-keys t)
 
 (provide 'init-ido)

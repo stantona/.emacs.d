@@ -1,6 +1,6 @@
 # -*- mode: snippet; require-final-newline: nil -*-
 # name: dbg
 # key: dbg
-# binding: C-x +
+# group: debugging
 # --
-puts "\n\nDBG: in #{self.class.name}:#{__method__}: ${message}"
+puts "\t[#{Time.zone.now}][DBG]:${ in #{self.class.name}:#{__method__}:} ${message}\n"
