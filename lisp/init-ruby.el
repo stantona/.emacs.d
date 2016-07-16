@@ -9,6 +9,4 @@
 (add-to-list 'auto-mode-alist '("\\.pryrc\\'" . ruby-mode))
 (add-to-list 'auto-mode-alist '("\\.irbrc\\'" . ruby-mode))
 
-(add-hook 'ruby-mode-hook 'projectile-mode)
-
 (provide 'init-ruby)
