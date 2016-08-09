@@ -7,8 +7,8 @@
 
   (interactive)
   (setq
-   sh-basic-offset 4
-   sh-indentation 4))
+   sh-basic-offset 2
+   sh-indentation 2))
 
 (add-hook 'sh-mode-hook 'setup-shell-script-mode)
 
