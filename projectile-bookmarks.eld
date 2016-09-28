@@ -1,1 +1,1 @@
-("x:/themis/" "x:/src/infrastructure/" "~/.emacs.d/" "x:/.emacs.d/" "x:/src/themis/" "x:/src/Diamond/")
+("x:/src/infrastructure/" "~/.emacs.d/" "x:/themis/" "x:/.emacs.d/" "x:/src/themis/" "x:/src/Diamond/")
