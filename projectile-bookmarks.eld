@@ -1,1 +1,1 @@
-("/mnt/wheezy/src/infrastructure/" "~/.emacs.d/" "x:/src/infrastructure/" "x:/themis/" "x:/.emacs.d/" "x:/src/themis/" "x:/src/Diamond/")
+("~/.emacs.d/" "/mnt/wheezy/src/infrastructure/" "~/.rc/" "/mnt/wheezy/src/lib-themis-nagios/" "/mnt/wheezy/themis/" "/mnt/wheezy/src/gocl.io/" "x:/src/infrastructure/" "x:/themis/" "x:/.emacs.d/" "x:/src/themis/" "x:/src/Diamond/")

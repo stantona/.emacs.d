@@ -1,0 +1,25 @@
+;;;; Emacs Bookmark Format Version 1 ;;;;
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+((".emacs.d"
+ (filename . "~/wheezy/.emacs.d/")
+ (front-context-string . "auto-save-list\n ")
+ (rear-context-string . " 0 Oct 25 11:49 ")
+ (position . 218))
+("wheezy"
+ (filename . "~/wheezy/")
+ (front-context-string . ".aws\n  drwxr-xr-")
+ (rear-context-string . " 0 Oct 18 17:29 ")
+ (position . 229))
+("gocl.io"
+ (filename . "/mnt/wheezy/src/gocl.io/")
+ (front-context-string . ".git\n  -rw-r--r-")
+ (rear-context-string . " 0 Oct 17 12:26 ")
+ (position . 212))
+("infrastructure"
+ (filename . "~/wheezy/src/infrastructure/")
+ (front-context-string . "account-manager\n")
+ (rear-context-string . " 0 Sep  7 17:20 ")
+ (position . 234))
+)
