@@ -29,8 +29,6 @@
 
 (setq column-number-mode t)
 
-(normal-erase-is-backspace-mode 1)
-
 (add-to-list 'load-path (concat user-emacs-directory "lisp"))
 
 ;; Remove flash screen for heavens sake...
@@ -47,9 +45,11 @@
    inf-ruby
    chruby
    yaml-mode
+   json-mode
    puppet-mode
    base16-theme
-   whitespace-cleanup-mode))
+   whitespace-cleanup-mode
+   zoom-frm))
 
 ;; Todo: Put this in its own configuration once it has matured
 (require 'helm-config)
@@ -78,6 +78,9 @@
 ;; Initialize ido mode
 ;;(require 'init-ido)
 
+;; Initialize json mode
+(require 'init-json)
+
 ;; Initialize ruby mode
 (require 'init-ruby)
 
@@ -104,10 +107,16 @@
 (global-set-key (kbd "s-.") 'avy-goto-word-or-subword-1)
 (global-set-key (kbd "s-w") 'ace-window)
 
+;; zoom-frm key bindings
+(define-key ctl-x-map [(control ?+)] 'zoom-in/out)
+(define-key ctl-x-map [(control ?-)] 'zoom-in/out)
+
 (global-whitespace-cleanup-mode)
 (setq whitespace-style '(lines tabs face trailing))
 (setq whitespace-line-column 120)
 (global-whitespace-mode 1)
+
+(setq json-reformat:indent-width 2)
 
 (when (fboundp 'windmove-default-keybindings)
   (windmove-default-keybindings))
@@ -121,9 +130,9 @@
 
 ;; Set the font
 (add-to-list 'default-frame-alist
-             '(font . "DejaVuSansMono-10"))
+             '(font . "RobotoMono-11"))
 
-(set-default-font "DejaVuSansMono-10")
+(set-default-font "RobotoMono-11")
 
 (load-theme 'cobalt t t)
 (enable-theme 'cobalt)
