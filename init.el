@@ -1,8 +1,15 @@
-(package-initialize)
+;; Turn off mouse interface early in startup to avoid momentary display
 
+;; Added by Package.el.  This must come before configurations of
+;; installed packages.  Don't delete this line.  If you don't want it,
+;; just comment it out by adding a semicolon to the start of the line.
+;; You may delete these explanatory comments.
+;;;
+
+(package-initialize)
 (prefer-coding-system 'utf-8-unix)
 
-;; Set the 'tmp' directory as an alternative location for backup files. Don't clutter the fs.
+;; Set alternative location for backup files
 (setq backup-directory-alist
   `((".*" . ,temporary-file-directory)))
 (setq auto-save-file-name-transforms
@@ -66,7 +73,11 @@
   (setq frame-title-format
         '((:eval (if (buffer-file-name)
                      (abbreviate-file-name (buffer-file-name))
-                   "%b")))))
+                   "%b"))))
+
+  (setq fci-rule-column 120)
+  (define-globalized-minor-mode global-fci-mode fci-mode (lambda () (fci-mode 1)))
+  (global-fci-mode 1))
 
 (projectile-global-mode)
 (defvar projectile-completion-system)
@@ -100,9 +111,6 @@
 (setq whitespace-style '(tabs face trailing))
 (global-whitespace-mode 1)
 
-(setq fci-rule-column 120)
-(define-globalized-minor-mode global-fci-mode fci-mode (lambda () (fci-mode 1)))
-(global-fci-mode 1)
 
 (setq json-reformat:indent-width 2)
 
