@@ -1,17 +1,8 @@
-;; Turn off mouse interface early in startup to avoid momentary display
-
-;; Added by Package.el.  This must come before configurations of
-;; installed packages.  Don't delete this line.  If you don't want it,
-;; just comment it out by adding a semicolon to the start of the line.
-;; You may delete these explanatory comments.
-;;;
-
 (package-initialize)
 
 (prefer-coding-system 'utf-8-unix)
 
-;; Set alternative location for backup files
-(setq temporary-file-directory "~/.backups")
+;; Set the 'tmp' directory as an alternative location for backup files. Don't clutter the fs.
 (setq backup-directory-alist
   `((".*" . ,temporary-file-directory)))
 (setq auto-save-file-name-transforms
@@ -33,8 +24,10 @@
    chruby
    fill-column-indicator
    flx-ido
+   ido-vertical-mode
    yaml-mode
    json-mode
+   projectile
    puppet-mode
    whitespace-cleanup-mode
    zoom-frm))
