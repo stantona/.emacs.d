@@ -34,6 +34,11 @@
   (package-refresh-contents)
   (package-install 'use-package))
 
+(use-package ace-window
+  :config
+  (progn
+    (global-set-key (kbd "M-o") 'ace-window)))
+
 (use-package flx-ido
   :config
   (progn
@@ -117,3 +122,17 @@
 
 ;; Use ibuffer
 (defalias 'list-buffers 'ibuffer)
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(package-selected-packages
+   (quote
+    (ace-window whitespace-cleanup-mode use-package try puppet-mode projectile moe-theme magit json-mode ido-vertical-mode flx-ido elpy avy ag))))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
